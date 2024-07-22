@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EatSmartly",
-  description: "You can make intelligent food choices",
+  title: "Coma de forma inteligente",
+  description: "Você pode fazer escolhas alimentares inteligentes",
 };
 
 export default function RootLayout({
