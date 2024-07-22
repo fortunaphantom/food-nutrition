@@ -43,10 +43,10 @@ const PieChart = () => {
       <circle r="8" cx="16" cy="16" style={{ fill: "rgba(255, 255, 255, 0.2)", strokeWidth: 0 }}></circle>
 
       {/* Text Labels */}
-      <text x="16" y="5" textAnchor="middle" fontSize="2" fill="#000">70% Carbs</text>
-      <text x="24" y="20" textAnchor="middle" fontSize="2" fill="#000">12% Protein</text>
-      <text x="14" y="29" textAnchor="middle" fontSize="2" fill="#000">5% Fat</text>
-      <text x="7" y="20" textAnchor="middle" fontSize="2" fill="#000">13% Other</text>
+      <text x="16" y="5" textAnchor="middle" fontSize="2" fill="#000">70% Carboidratos</text>
+      <text x="24" y="20" textAnchor="middle" fontSize="2" fill="#000">12% Proteína</text>
+      <text x="14" y="29" textAnchor="middle" fontSize="2" fill="#000">5% Gorda</text>
+      <text x="7" y="20" textAnchor="middle" fontSize="2" fill="#000">13% Outro</text>
     </svg>
   );
 };
