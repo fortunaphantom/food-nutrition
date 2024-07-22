@@ -17,20 +17,20 @@ export default function Home() {
     <main className={styles.main}>
       <header>
         <div className="brand">
-          <h4>EatSmartly</h4>
-          <p>You can make intelligent food choices</p>
+          <h4>Coma de forma inteligente</h4>
+          <p>Você pode fazer escolhas alimentares inteligentes</p>
         </div>
 
         <div className="header-section">
           <div className="hero-heading">
             <div className="heading-primary">
-              Unlock the <br /> true potential of your meals <br />
+              Desbloqueie <br/>o verdadeiro potencial <br/>das suas refeições
             </div>
             <button
               className="button button-active view-menu"
               onClick={handleClick}
             >
-              Start Free Trial
+              Comece o teste gratuito
               <span>
                 <img
                   src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwYXRoIGQ9Ik01MDYuMTM0LDI0MS44NDNjLTAuMDA2LTAuMDA2LTAuMDExLTAuMDEzLTAuMDE4LTAuMDE5bC0xMDQuNTA0LTEwNGMtNy44MjktNy43OTEtMjAuNDkyLTcuNzYyLTI4LjI4NSwwLjA2OGMtNy43OTIsNy44MjktNy43NjIsMjAuNDkyLDAuMDY3LDI4LjI4NEw0NDMuNTU4LDIzNkgyMGMtMTEuMDQ2LDAtMjAsOC45NTQtMjAsMjBjMCwxMS4wNDYsOC45NTQsMjAsMjAsMjBoNDIzLjU1N2wtNzAuMTYyLDY5LjgyNGMtNy44MjksNy43OTItNy44NTksMjAuNDU1LTAuMDY3LDI4LjI4NGM3Ljc5Myw3LjgzMSwyMC40NTcsNy44NTgsMjguMjg1LDAuMDY4bDEwNC41MDQtMTA0YzAuMDA2LTAuMDA2LDAuMDExLTAuMDEzLDAuMDE4LTAuMDE5QzUxMy45NjgsMjYyLjMzOSw1MTMuOTQzLDI0OS42MzUsNTA2LjEzNCwyNDEuODQzeiIvPjwvZz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PC9zdmc+"
@@ -92,8 +92,8 @@ export default function Home() {
 
               <div className="menu-item-type-1">
                 <div className="menu-item-details menu-item-details-1">
-                  <h3>Pasta</h3>
-                  <p>Pasta with tomatoes</p>
+                  <h3>Massa</h3>
+                  <p>Macarrão com tomate</p>
                   <h4>287 kcal</h4>
                 </div>
 
@@ -118,8 +118,8 @@ export default function Home() {
 
               <div className="menu-item-type-1">
                 <div className="menu-item-details menu-item-details-1">
-                  <h3>Chicken Nugget</h3>
-                  <p>Real chicken</p>
+                  <h3>Nugget de frango</h3>
+                  <p>Frango de verdade</p>
                   <h4>296 kcal</h4>
                 </div>
 
@@ -138,24 +138,20 @@ export default function Home() {
 
           <div className="description">
             <h2 className="heading-secondary">
-              Unlock the <br />
-              Secrets of Your Food!
+            Desbloqueie o <br />
+            Segredos da sua comida!
             </h2>
             <p>
-              Ever wondered what's really in your meals? Discover the hidden
-              nutritional value with our easy-to-use tool. Make informed choices
-              and fuel your body right!
+            Já se perguntou o que realmente tem nas suas refeições? Descubra o valor nutricional oculto com nossa ferramenta fácil de usar. Faça escolhas informadas e alimente seu corpo corretamente!
             </p>
           </div>
         </section>
 
         <section className="section-2">
           <div className="description">
-            <h2 className="heading-secondary">Your Health, Our Priority!</h2>
+            <h2 className="heading-secondary">Sua saúde, nossa prioridade!</h2>
             <p>
-              Dive into the details of every bite with our cutting-edge
-              nutritional analyzer. Whether you're tracking calories, macros, or
-              vitamins, we’ve got you covered!
+            Mergulhe nos detalhes de cada mordida com nosso analisador nutricional de ponta. Não importa se você está rastreando calorias, macros ou vitaminas, nós temos tudo o que você precisa!
             </p>
           </div>
 
@@ -171,8 +167,8 @@ export default function Home() {
           <div className="app-screenshots">
             <div className="app-screen">
               <span className="menu-button"></span>
-              <h3>EatSmartly</h3>
-              <p>You can make intelligent food choices</p>
+              <h3>Coma de forma inteligente</h3>
+              <p>Você pode fazer escolhas alimentares inteligentes</p>
 
               <div className="food-categories food-categories-2">
                 <button>
@@ -219,7 +215,7 @@ export default function Home() {
 
                   <div className="menu-item-type-2">
                     <div className="menu-item-details menu-item-details-2">
-                      <h3>Spaghetti</h3>
+                      <h3>Espaguete</h3>
                       <h4>158 kcal</h4>
                     </div>
 
@@ -241,7 +237,7 @@ export default function Home() {
 
                   <div className="menu-item-type-2">
                     <div className="menu-item-details menu-item-details-2">
-                      <h3>Chicken Nuggets</h3>
+                      <h3>Nuggets de frango</h3>
                       <h4>296 kcal</h4>
                     </div>
 
@@ -258,8 +254,8 @@ export default function Home() {
               <div className="menu-item-card menu-item-card-horizontal">
                 <div className="menu-item-type-horizontal">
                   <div className="menu-item-details menu-item-details-horizontal">
-                    <h3>Vegetable Eggs</h3>
-                    <p>Get clear insight into calorie content and nutrition</p>
+                    <h3>Ovos de vegetais</h3>
+                    <p>Obtenha uma visão clara do conteúdo calórico e da nutrição</p>
                     <h4>554 kcal</h4>
                   </div>
                 </div>
@@ -320,29 +316,27 @@ export default function Home() {
               <div className="menu-item-type-vertical">
                 <div className="menu-item-details menu-item-details-vertical">
                   <div className="heading-with-time">
-                    <h3>Vegetable Eggs</h3>
+                    <h3>Ovos de vegetais</h3>
 
                     <div className="clock">
                       <img
                         src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NDMuMjk0IDQ0My4yOTQiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNDQzLjI5NCA0NDMuMjk0IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0yMjEuNjQ3IDBjLTEyMi4yMTQgMC0yMjEuNjQ3IDk5LjQzMy0yMjEuNjQ3IDIyMS42NDdzOTkuNDMzIDIyMS42NDcgMjIxLjY0NyAyMjEuNjQ3IDIyMS42NDctOTkuNDMzIDIyMS42NDctMjIxLjY0Ny05OS40MzMtMjIxLjY0Ny0yMjEuNjQ3LTIyMS42NDd6bTAgNDE1LjU4OGMtMTA2Ljk0MSAwLTE5My45NDEtODctMTkzLjk0MS0xOTMuOTQxczg3LTE5My45NDEgMTkzLjk0MS0xOTMuOTQxIDE5My45NDEgODcgMTkzLjk0MSAxOTMuOTQxLTg3IDE5My45NDEtMTkzLjk0MSAxOTMuOTQxeiIvPjxwYXRoIGQ9Im0yMzUuNSA4My4xMThoLTI3LjcwNnYxNDQuMjY1bDg3LjE3NiA4Ny4xNzYgMTkuNTg5LTE5LjU4OS03OS4wNTktNzkuMDU5eiIvPjwvc3ZnPg=="
                         alt="Clock icon"
                       />
-                      <h5>25 Mins</h5>
+                      <h5>25 Min</h5>
                     </div>
                   </div>
                   <p>
-                    Dive into the details of every bite with our cutting-edge
-                    nutritional analyzer. Whether you're tracking calories,
-                    macros, or vitamins, we’ve got you covered!
+                  Mergulhe nos detalhes de cada mordida com nosso analisador nutricional de ponta. Não importa se você está rastreando calorias, macros ou vitaminas, nós temos tudo o que você precisa!
                   </p>
                   <div className="price">
-                    <p>Total Calories</p>
+                    <p>Calorias totais</p>
                     <h4>554 kcal</h4>
                   </div>
                 </div>
 
                 <button className="button button-active add-to-cart">
-                  View More
+                Veja mais
                 </button>
               </div>
             </div>
@@ -350,10 +344,9 @@ export default function Home() {
 
           <div className="app-download">
             <div className="description">
-              <h2 className="heading-secondary">App is available</h2>
+              <h2 className="heading-secondary">O aplicativo está disponível</h2>
               <p>
-                Our app is available for Android and iOS platforms. Download it
-                now for your mobile!
+              Nosso aplicativo está disponível para as plataformas Android e iOS. Baixe agora mesmo para seu celular!
               </p>
             </div>
 
@@ -387,17 +380,15 @@ export default function Home() {
 
       <footer>
         <div className="contact-us">
-          <h2 className="heading-secondary">Healthy Eating Made Simple!</h2>
+          <h2 className="heading-secondary">Alimentação saudável simplificada!</h2>
           <a href="#!" className="button button-active">
-            Contact us now
+          Entre em contato conosco agora
           </a>
         </div>
 
         <div className="description">
           <p>
-            Understand the nutritional value of what you eat in just a few taps.
-            Our tool is designed to make healthy eating straightforward and
-            accessible for everyone.
+          Entenda o valor nutricional do que você come em apenas alguns toques. Nossa ferramenta é projetada para tornar a alimentação saudável direta e acessível para todos.
           </p>
         </div>
       </footer>
